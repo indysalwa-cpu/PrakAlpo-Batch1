@@ -11,9 +11,9 @@ print("tinggi", tinggi_badan, "cm")
 print("Status Aktif", is_aktif)
 
 #Deklarasi berbagai tipe dasar
-angka_bulat = 25            # Interger (int)
+angka_bulat = 25            # Integer (int)
 angka_desimal = 3.14        # Float (float)
-teks = "Belajar Phyton"     # String (str)
+teks = "Belajar Python"     # String (str)
 status = False              # Boolean (bool)
 
 # Mengecek tipe-tipe data masing-masing variabel
@@ -34,9 +34,9 @@ print("Tipe", type(koordinat))
 
 #3. DICTIONARY (Pasangan Key : Value)
 mahasiswa = {
-    "nama": "Siti",
-    "nim": "123456",
-    "ipk": "3.85"
+    "nama"  : "Siti",
+    "nim"   : "123456",
+    "ipk"   : 3.85
 }
 print("Dict Mahasiswa:", mahasiswa)
 print("Nama Mahasiswa:", mahasiswa["nama"])
@@ -47,17 +47,17 @@ angka_unik = {1, 2, 2, 3, 4, 4, 5}
 print("Set Angka Unik (otomatis menghapus duplikat):", angka_unik)
 print("Tipe:", type(angka_unik))
 
-# 1. Konversi dari String ke Interger
+# 1. Konversi dari String ke Integer
 str_angka = "100"
 int_angka = int(str_angka)
 print("Hasil Penjumlahan (100 + 50):", int_angka + 50)
 
-# 2. Konversi dari Float ke Interger (angka dibelakang koma dihilangkan)
+# 2. Konversi dari Float ke Integer (angka dibelakang koma dihilangkan)
 ipk_float = 3.75
 ipk_int = int(ipk_float)
 print("Float ke Int:", ipk_int)     #Output: 3
 
-# 3. Konversi dari Interger ke String
+# 3. Konversi dari Integer ke String
 tahun = 2024
 pesan = "Tahun saat ini: " + str(tahun)
 print(pesan)
